@@ -136,15 +136,14 @@ body{
     list-style: none;
 }
 
-.footer_list_item a img{
+.footer_list_item a svg{
     width: 60%;
 }
 
-.footer_list_item a img:hover{
+.footer_list_item a svg:hover path{
     cursor: pointer;
-    filter: invert(13%) sepia(100%) saturate(10000000%) hue-rotate(0deg) brightness(90%) contrast(120%);
-
-
+    fill: var(--secondary-color);
+    transition: .3s;
 }
 
 /* Media Queries */
